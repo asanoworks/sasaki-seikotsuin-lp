@@ -26,3 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 });
 
+
+document.querySelectorAll('a[aria-disabled="true"]').forEach(function(link) {
+  link.addEventListener('click', function(event) { event.preventDefault(); });
+});
