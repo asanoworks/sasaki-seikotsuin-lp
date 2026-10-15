@@ -265,13 +265,13 @@ html,body{margin:0;padding:0;font-family:YuGothic, "Hiragino Kaku Gothic ProN", 
   .lp-contact-break-sp{display:inline}
   .lp-contact .lp-contact-lead{order:1;margin:20px 0 0;font-size:14px;font-weight:500;line-height:1.6}
   .lp-contact .lp-contact-lead::after{content:"";display:block;width:40px;height:3px;background:#B89A5E;margin:14px auto 0}
-  .lp-contact .lp-contact-note{order:2;margin:16px 0 12px;padding-right:60px;font-size:14px;font-weight:500;line-height:1.6}
+  .lp-contact .lp-contact-note{order:2;margin:16px 0 12px;font-size:14px;font-weight:500;line-height:1.6}
   .lp-contact .lp-contact-actions{order:3;position:relative;display:flex;flex-direction:column;gap:12px}
   .lp-contact .lp-contact-actions :is(button,a.contact-link){display:flex;align-items:center;justify-content:center;gap:12px;width:100%;min-width:0;padding:14px 10px;border:0;border-radius:8px;background:#B89A5E;color:#fff;font-family:inherit;font-size:clamp(14px,4.1vw,16px);font-weight:700;line-height:1.5;opacity:1}
   .lp-contact .lp-contact-actions :is(button,a.contact-link):nth-child(2){background:#403A34}
   .lp-contact .lp-contact-actions .lp-contact-icon-pc{display:none}
   .lp-contact .lp-contact-actions .lp-contact-icon-sp{display:block;width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-  .lp-contact .lp-contact-actions img{position:absolute;right:0;bottom:calc(100% + 4px);display:block;width:76px;max-width:24vw;height:auto;pointer-events:none}
+  .lp-contact .lp-contact-actions img{order:-1;align-self:flex-end;display:block;width:76px;max-width:24vw;height:auto;pointer-events:none}
 }
 .lp-footer-break-sp{display:none}
 /* SP Footer: keep the reference's unassigned telephone number. */
