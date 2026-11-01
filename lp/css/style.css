@@ -438,3 +438,18 @@ a:focus-visible,button:focus-visible{outline:3px solid #403A34;outline-offset:4p
  .hero-ctas .btn{min-height:52px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* PC footer overlap fix */
+@media (min-width: 1024px) {
+  .lp-pc-rest .lp-footer {
+    min-height: 419px;
+  }
+
+  .lp-pc-rest .lp-footer p:last-of-type {
+    top: 316px;
+  }
+
+  .lp-pc-rest .lp-footer .lp-copyright {
+    top: 360px;
+  }
+}
