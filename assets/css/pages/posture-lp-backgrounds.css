@@ -1,0 +1,30 @@
+@media(min-width:761px){
+.hero{background-image:url("/images/posture-lp/bg-pc-hero.webp");background-size:100% 100%;background-repeat:no-repeat}
+.concerns{background-image:url("/images/posture-lp/bg-pc-concerns.webp");background-size:100% 100%;background-repeat:no-repeat}
+.about{background-image:url("/images/posture-lp/bg-pc-about.webp");background-size:100% 100%;background-repeat:no-repeat}
+.analysis:not(.future){background-image:url("/images/posture-lp/bg-pc-analysis.webp");background-size:100% 100%;background-repeat:no-repeat}
+.future{background-image:url("/images/posture-lp/bg-pc-future.webp");background-size:100% 100%;background-repeat:no-repeat}
+.flow{background-image:url("/images/posture-lp/bg-pc-flow.webp");background-size:100% 100%;background-repeat:no-repeat}
+.price{background-image:url("/images/posture-lp/bg-pc-price.webp");background-size:100% 100%;background-repeat:no-repeat}
+.questionnaire{background-image:url("/images/posture-lp/bg-pc-questionnaire.webp");background-size:100% 100%;background-repeat:no-repeat}
+.message{background-image:url("/images/posture-lp/bg-pc-message.webp");background-size:100% 100%;background-repeat:no-repeat}
+.faq{background-image:url("/images/posture-lp/bg-pc-faq.webp");background-size:100% 100%;background-repeat:no-repeat}
+.access{background-image:url("/images/posture-lp/bg-pc-access.webp");background-size:100% 100%;background-repeat:no-repeat}
+.reserve{background-image:url("/images/posture-lp/bg-pc-reserve.webp");background-size:100% 100%;background-repeat:no-repeat}
+footer{background-image:url("/images/posture-lp/bg-pc-footer.webp");background-size:100% 100%;background-repeat:no-repeat}
+}
+@media(max-width:760px){
+.hero{background-image:url("/images/posture-lp/bg-sp-hero.webp");background-size:100% 100%;background-repeat:no-repeat}
+.concerns{background-image:url("/images/posture-lp/bg-sp-concerns.webp");background-size:100% 100%;background-repeat:no-repeat}
+.about{background-image:url("/images/posture-lp/bg-sp-about.webp");background-size:100% 100%;background-repeat:no-repeat}
+.analysis:not(.future){background-image:url("/images/posture-lp/bg-sp-analysis.webp");background-size:100% 100%;background-repeat:no-repeat}
+.future{background-image:url("/images/posture-lp/bg-sp-future.webp");background-size:100% 100%;background-repeat:no-repeat}
+.flow{background-image:url("/images/posture-lp/bg-sp-flow.webp");background-size:100% 100%;background-repeat:no-repeat}
+.price{background-image:url("/images/posture-lp/bg-sp-price.webp");background-size:100% 100%;background-repeat:no-repeat}
+.questionnaire{background-image:url("/images/posture-lp/bg-sp-questionnaire.webp");background-size:100% 100%;background-repeat:no-repeat}
+.message{background-image:url("/images/posture-lp/bg-sp-message.webp");background-size:100% 100%;background-repeat:no-repeat}
+.faq{background-image:url("/images/posture-lp/bg-sp-faq.webp");background-size:100% 100%;background-repeat:no-repeat}
+.access{background-image:url("/images/posture-lp/bg-sp-access.webp");background-size:100% 100%;background-repeat:no-repeat}
+.reserve{background-image:url("/images/posture-lp/bg-sp-reserve.webp");background-size:100% 100%;background-repeat:no-repeat}
+footer{background-image:url("/images/posture-lp/bg-sp-footer.webp");background-size:100% 100%;background-repeat:no-repeat}
+}
